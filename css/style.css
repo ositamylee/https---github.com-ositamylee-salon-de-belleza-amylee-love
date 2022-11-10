@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: "roboto", sans-serif;
+}
+
+#menu{
+    background-color: rgb(161, 169, 58) !important ;
+}
+logo{
+    width: 200px;
+}
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 700;
+
+}
+#menu a{
+    color: hsl(0, 47%, 18%);
+}
+.slideimg{
+height: 800px;
+}
