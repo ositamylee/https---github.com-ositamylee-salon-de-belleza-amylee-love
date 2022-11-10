@@ -21,3 +21,90 @@ logo{
 .slideimg{
 height: 800px;
 }
+logo{
+    width: 200px;
+}
+#menu a, button{
+    font-size: 18px !important;
+    font-weight: 700;
+
+}
+#menu a{
+    color: hsl(0, 33%, 33%);
+}
+.slideimg{
+height: 800px;
+}
+
+/* noticias y novedades */
+
+ #noticias{
+    background-color: #000;
+
+ }
+    #noticias .titulo{
+        width: 100%;
+        color: #fff;
+        text-align: center;
+    }
+    .buy{
+        margin-left: 40%;
+    }
+ /* servicios */
+ .imaginstalaciones{
+    width: 480px;
+    height: 260px;
+ }
+ .imagfusa{
+    width: 480px;
+    height: 260px;
+ }
+ 
+ /* footer */
+ #page-footer{
+    background-color: rgb(141, 196, 41);
+ }
+ #page-footer{
+    color: #fff
+ }
+ #page-footer .ftcontainer{
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+
+    
+
+ }
+ .footer__cta-ftcontainer{
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+
+ }
+  .footer_cta-ftcontainer .cta_txt{
+    font-size: 3.6px;
+    max-width: 50%;
+    padding: 0;
+
+  }
+ .footer_cta-ftcontainer .cta_txt btn{
+    margin-top: 0;
+
+ }
+ .footer__menu figure{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 13px;
+ }
+ .footer__menu{
+    max-width: 300px;
+    padding-left: 1em; 
+    grid-column: 1/3;
+ }
+ /* falta por terminar footer */
