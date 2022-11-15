@@ -87,13 +87,13 @@ height: 800px;
     flex-direction: row;
 
  }
-  .footer_cta-ftcontainer .cta__txt{
+  .footer__cta-ftcontainer .cta__txt{
     font-size: 3.6px;
     max-width: 50%;
     padding: 0;
 
   }
- .footer_cta-ftcontainer .cta__txt {
+ .footer__cta-ftcontainer .cta__txt {
     margin-top: 0;
 
  }
@@ -118,7 +118,7 @@ height: 800px;
    justify-content: center;
    flex-wrap: nowrap;
    position: relative;
-   padding: 70px 0;
+   padding: 70px 0px;
 
 }
 .footer__cta-ftcontainer:after{
@@ -156,8 +156,8 @@ height: 800px;
  }
  .footer__cta-ftcontainer .cta__btn:hover{
    color: rgb(127, 238, 36);
-   background-color: blue;
-   border-color: rgb(6, 143, 17);
+   background-color: rgb(40, 14, 155);
+   border-color: #f8c418;
 
  }
  .footer__link{
