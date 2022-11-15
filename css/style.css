@@ -2,6 +2,7 @@
 
 body{
     font-family: "roboto", sans-serif;
+    overflow-x: hidden;
 }
 
 #menu{
@@ -38,11 +39,11 @@ height: 800px;
 
 /* noticias y novedades */
 
- #noticias{
+ #servicio{
     background-color: #000;
 
  }
-    #noticias .titulo{
+    #servicio .titulo{
         width: 100%;
         color: #fff;
         text-align: center;
@@ -86,13 +87,13 @@ height: 800px;
     flex-direction: row;
 
  }
-  .footer_cta-ftcontainer .cta_txt{
+  .footer_cta-ftcontainer .cta__txt{
     font-size: 3.6px;
     max-width: 50%;
     padding: 0;
 
   }
- .footer_cta-ftcontainer .cta_txt btn{
+ .footer_cta-ftcontainer .cta__txt {
     margin-top: 0;
 
  }
@@ -131,7 +132,7 @@ height: 800px;
    content: "";
 
 }
-.footer__cta-ftcontainer .cta_txt{
+.footer__cta-ftcontainer .cta__txt{
    color: aqua;
    font-size: 26px;
    margin: 0;
@@ -139,7 +140,7 @@ height: 800px;
    padding: 0 15px;
 
 }
- .footer__cta-ftcontainer .cta_btn{
+ .footer__cta-ftcontainer .cta__btn{
    color: aqua;
    padding: 26px 60px;
    border: 2px solid rgb(201, 65, 65);
@@ -153,7 +154,7 @@ height: 800px;
    transition: all .4s ease-in-out;
 
  }
- .footer__cta-ftcontainer .cta_btn:hover{
+ .footer__cta-ftcontainer .cta__btn:hover{
    color: rgb(127, 238, 36);
    background-color: blue;
    border-color: rgb(6, 143, 17);
@@ -163,7 +164,70 @@ height: 800px;
    list-style: none;
    font-size: 14px;
    margin: 1em 0;
-   padding: 5px 0 5px .em;
+   padding: 5px 0 5px .5em;
 
  }
- /* falta por terminar footer */
+
+
+ .ft-social{
+   color: #fff;
+   width: 30px;
+   border-radius: 100%;
+   height: auto;
+   display: inline-block;
+   font-size: 14px;
+   line-height: inherit;
+}
+
+.ft-link{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.footer__link a{
+   text-decoration: none;
+}
+
+.footer__title{
+   font-weight: 700;
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+
+#page-footer .ftcontainer{
+   max-width: 1200px;
+   flex-direction: row;
+   padding: 70px 0;
+   justify-content: space-between;
+   margin: 0 auto;
+
+}
+
+.footer__logo{
+   width: 100%;
+}
+
+.footer__info{
+   font-size: 14px;
+   color: #fff;
+   line-height: 30px;
+}
+
+footer{
+   min-height: 100px;
+   background-color: #000;
+}
+
+.footer__link:nth-child(1){
+   border-left: 2px solid #480404;
+}
+
+.footer__link:nth-child(2){
+   border-left: 2px solid #faea07;
+}
+
+.footer__link:nth-child(3){
+   border-left: 2px solid #0daeda;
+}
