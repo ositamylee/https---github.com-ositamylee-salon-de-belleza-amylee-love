@@ -217,7 +217,7 @@ height: 800px;
 
 footer{
    min-height: 100px;
-   background-color: #000;
+   background-color: rgb(173, 230, 163);
 }
 
 .footer__link:nth-child(1){
